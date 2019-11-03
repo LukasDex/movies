@@ -7,7 +7,7 @@ Script works on file passed in --set_file_name command. If no file name passed, 
 Available commands:
 
 --set_file_name "filename.sqlite"
-Setting file to work on to "filename.sqlite".If file doesn’t exists new file will be created. Every command after this one will work with that file. 
+Setting file to work on "filename.sqlite". If file doesn’t exists new file will be created. Every command after this one will work with that file. 
 
 --add "movie_name" "movie_name2"
 Adding movies to data source. Multiple movies names can be passed. Requires internet connection.
