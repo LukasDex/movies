@@ -17,11 +17,11 @@ Adding all movies from filename.sqlite. File must contain table named MOVIES wit
 
 --sort_by "column_name"
 Printing database sorted by given column. Command prints movies titles and given column.
-Available column names = year, runtime, genre, director, writer, language, country, imdb_rating, imdb_votes, actors, box_office, oscars_won, oscars_nominations, all_wins, all_nominations
+Available column names: year, runtime, genre, director, writer, language, country, imdb_rating, imdb_votes, actors, box_office, oscars_won, oscars_nominations, all_wins, all_nominations
 
 --filter_by "column_name" "str"
 Printing movies titles and given column where str could be found. (e.g. --filter_by language "English")
-Available column names = director, actors, language
+Available column names: director, actors, language
 
 --filter_by "option"
 option can be: 
