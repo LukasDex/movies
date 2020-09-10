@@ -1,4 +1,4 @@
-# Movies OMDb API scrapper
+# Movies OMDb API scraper
 
 Script is using OMDb API for filling database with information about movies. Program also provides commands for printing information gathered in database.
 
