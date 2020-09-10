@@ -1,9 +1,10 @@
-# movies
+# Movies OMDb API scrapper
 
 Script is using OMDb API for filling database with information about movies. Program also provides commands for printing information gathered in database.
 
 All commands can be written one after another in a single line (e.g. python3 movies.py --set_file_name "thisfile.sqlite" --add "Memento" "The Avengers" --highscores)
 Script works on file passed in --set_file_name command. If no file name passed, program will work on default "moviesdata.sqlite" file.
+
 Available commands:
 
 --set_file_name "filename.sqlite"
